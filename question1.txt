@@ -1,0 +1,149 @@
+Questions
+Load the dataset.
+Display first 5 rows.
+Display last 10 rows.
+Show dataset shape.
+Show column names.
+Check datatype of each column.
+Display complete dataset information.
+Count total null values.
+
+
+2. Basic Exploration
+Questions
+Find total number of patients.
+Find total male patients.
+Find total female patients.
+Find unique values in Gender column.
+Count unique values in every column.
+Find duplicate rows.
+Remove duplicate rows.
+Check summary statistics.
+Find mean age.
+Find maximum bilirubin level.
+
+3. Selection & Filtering
+Questions
+Select only Age column.
+Select Age and Gender columns.
+Display patients age > 50.
+Display female patients only.
+Display patients with bilirubin > 5.
+Display patients with albumin < 3.
+Find patients between age 30 and 50.
+Find patients whose gender is Male and age > 60.
+Find patients with liver disease.
+Find patients without liver disease.
+
+Questions
+Use .loc[] to access first 10 rows.
+Use .iloc[] to access rows 5–15.
+Access specific cell value.
+Set Age as index.
+Reset index.
+Sort index ascending.
+Sort index descending.
+
+5. Sorting Questions
+Questions
+Sort by Age ascending.
+Sort by Age descending.
+Sort by Total_Bilirubin.
+Sort by Gender and Age.
+Find top 10 highest bilirubin patients.
+
+6. Missing Values Questions
+Questions
+Find columns containing null values.
+Count null values column-wise.
+Replace null values with mean.
+Replace null values with median.
+Drop rows containing null values.
+Fill null values using forward fill.
+Fill null values using backward fill.
+
+7. GroupBy Questions
+Questions
+Find average age by gender.
+Find maximum bilirubin by gender.
+Count patients by gender.
+Find average albumin level by gender.
+Find liver disease count gender-wise.
+Find mean enzyme levels group-wise.
+Apply multiple aggregations using .agg().
+
+9. Statistical Functions
+Questions
+Find mean of all numeric columns.
+Find median values.
+Find mode.
+Find standard deviation.
+Find variance.
+Find correlation matrix.
+Find covariance matrix.
+Find percentile values.
+Find skewness.
+Find kurtosis.
+
+10. Apply & Lambda Questions
+Questions
+Create age category column.
+Convert gender into numeric values.
+Create high-risk patient column.
+
+11. Column Operations
+Questions
+Create new column Total_Enzyme.
+Create bilirubin difference column.
+Change datatype of Age column.
+Replace Male/Female with M/F.
+
+12. String Functions Questions
+Questions
+Convert Gender to uppercase.
+Convert Gender to lowercase.
+Check string length.
+Use contains() function.
+Strip extra spaces.
+Split column values.
+
+14. Merge / Join / Concat Practice
+
+Create another dataframe manually.
+
+Questions
+Merge two dataframes.
+Perform inner join.
+Perform left join.
+Perform right join.
+Perform outer join.
+Concatenate vertically.
+Concatenate horizontally.
+
+15. Pivot Table Questions
+Questions
+Create pivot table by Gender and Dataset.
+Find average Age using pivot table.
+Find mean bilirubin group-wise.
+
+16. Advanced Pandas Questions
+Questions
+Find top 5 oldest patients.
+Find patient with highest AST enzyme.
+Find patients whose Albumin > average Albumin.
+Detect outliers using IQR.
+Normalize numeric columns.
+Standardize data.
+Create bins using pd.cut().
+Create quantiles using qcut().
+Rank patients by risk score.
+
+17. Visualization Practice with Pandas
+Questions
+Plot age distribution.
+Plot gender count.
+Plot histogram of bilirubin.
+Boxplot of enzyme levels.
+Scatter plot of Age vs Bilirubin.
+Correlation heatmap.
+
